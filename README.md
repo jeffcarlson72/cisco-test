@@ -40,7 +40,7 @@ Just run `docker build .` in the project directory.  Then you'll get a
 new Docker image when you run `docker images`.  It won't have a name,
 but it will have a hash.  Then you can run `docker run <hash>`.  When
 I did this it spewed messages about not opening TTYs.  Speaking of
-TTYs, you won't get the use of your back, so fire up another terminal
+TTYs, you won't get the use of yours back, so fire up another terminal
 (or screen/tmux window) and run `docker ps` and identify your
 instance, then run `docker exec -it <container-id> /bin/sh`.  You
 should get a shell in the container and you can configure your API key
